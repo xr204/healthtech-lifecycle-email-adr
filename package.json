@@ -1,0 +1,13 @@
+{
+  "name": "healthtech-lifecycle-email-adr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node --experimental-strip-types scripts/demo.ts",
+    "test": "node --experimental-strip-types test/appointment_lifecycle.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
